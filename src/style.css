@@ -1,0 +1,139 @@
+* {
+    background-color: antiquewhite;
+}
+.board {
+    width: 100%;
+    height: 90%;
+    background-color: #f4f4f4;
+    border-radius: 1%;
+    border: 2px solid #000;
+}
+
+.sketch {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    margin: 5px 75px;
+}
+
+.content {
+    display: flex;
+}
+
+.tools-section {
+    margin-right: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.selection {
+    margin: 20px;
+    display: flex;
+}
+
+.color-picker-container {
+    text-align: center;
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.eraser-container {
+    text-align: center;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.pick_color {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.pick_color::-webkit-color-swatch {
+    border-radius: 20%;
+    border: 3px solid #aaaaaa;
+}
+
+.brushsize-container {
+    text-align: center;
+    display: inline;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.pick_size {
+    height: 30px;
+    width: 70px;
+    position: relative;
+    -webkit-appearance: button;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.3em 0.6em;
+    background: white;
+    border: 1px solid #aaaaaa;
+    border-radius: 0.3em;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: 0.85em;
+    font-weight: normal;
+    overflow: hidden;
+    text-shadow: 0 1px 0 white;
+    white-space: nowrap; 
+}
+
+#eraser {
+    width: 15px;
+    height: 15px;
+}
+
+.gambar {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.boardContainer {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.board-container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 1%;
+    background: white;
+}
+
+.footnote {
+    position: fixed;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
