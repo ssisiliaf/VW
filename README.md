@@ -15,9 +15,3 @@ What does this program use to run?
 1. HTML, CSS
 2. React
 3. Socket.IO
-
-How to use this virtual whiteboard?
-1. clone/download this code
-2. this file used the node module and we do not put it in this link because the file is too big, thus you can do npm install should run in a CI environment that is similar to the production environment.
-
-Thank you and happy drawing!:D
